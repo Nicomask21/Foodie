@@ -1,9 +1,9 @@
-.Foodie-text{
+.Foodie-text {
     color: white;
     font-size: 35px;
     margin: 0;
     font-family: 'Comic Sans MS', cursive;
-    
+
 
 }
 
@@ -14,30 +14,47 @@
 }
 
 .borde {
-    margin-left: 950px;
-    margin-top: -15px;
     background-color: red;
-    border-color:  white;
-    border-radius: 25px;
     color: white;
 }
 
 .badge.bg-dark {
     background-color: red;
 }
+
 .my-custom-class {
     color: white;
 }
+
 .bg-red {
     background-color: red;
 }
-.carrito-icon{
-    max-width: 50%;
-    max-height: 75%;
-    margin-right: 8px;
+
+@media screen and (max-width:425px) {
+    .icon {
+        width: 50%;
+    }
+    .barra{
+        padding-bottom: 5px;
+    }
+    
 }
 
-.contenedor-restaurante{
+@media screen and (min-width:426px) and (max-width:768px) {
+    .icon {
+        width: 60%;
+    }
+    .barra{
+        padding-bottom: 5px;
+    }
+}
+
+.icon {
+    width: 50%;
+}
+
+
+.contenedor-restaurante {
     background-color: yellow;
     color: yellow;
     height: 300px;
@@ -45,50 +62,62 @@
 }
 
 .search-input {
-    border: 1px solid white; /* Color del borde blanco */
-    border-radius: 0; /* Bordes cuadrados */
-    padding: 0.375rem 0.75rem; /* Ajustes de padding */
-    font-size: 1rem; /* Tamaño del texto */
+    border: 1px solid white;
+    /* Color del borde blanco */
+    border-radius: 0;
+    /* Bordes cuadrados */
+    padding: 0.375rem 0.75rem;
+    /* Ajustes de padding */
+    font-size: 1rem;
+    /* Tamaño del texto */
 }
 
 .search-btn {
-    background-color: black; /* Fondo del botón negro */
-    border: none; /* Sin borde */
-    border-radius: 0; /* Bordes cuadrados */
-    font-size: 1rem; /* Tamaño del texto */
+    background-color: black;
+    /* Fondo del botón negro */
+    border: none;
+    /* Sin borde */
+    border-radius: 0;
+    /* Bordes cuadrados */
+    font-size: 1rem;
+    /* Tamaño del texto */
 }
 
 .cart-btn {
-    margin-left: 1.5rem; /* Ajuste de margen */
+    margin-left: 1.5rem;
+    /* Ajuste de margen */
 }
 
 .card.bg-primary.text-white.rounded-3 .card-body {
-    background-color: #ff0000; /* Fondo rojo */
-    border-color: white; /* Borde rojo */
-    
-  }
+    background-color: #ff0000;
+    /* Fondo rojo */
+    border-color: white;
+    /* Borde rojo */
 
-  .btn.btn-info.btn-block.btn-lg {
-    background-color: #000000; /* Fondo rojo */
-    border-color: #fffcfc; /* Borde rojo */
-    color: white /* Texto blanco */
-  }
-  
-  body {
-    color: #ffffff; /* Texto blanco */
-  }
-  body {
-    color: #ffffff; /* Texto blanco */
-  }
-  
-  .card-title,
-  .card-text,
-  .btn {
-    color: #ffffff !important; /* Texto blanco */
-  }
-  
-  
-  
- 
+}
+
+.btn.btn-info.btn-block.btn-lg {
+    background-color: #000000;
+    /* Fondo rojo */
+    border-color: #fffcfc;
+    /* Borde rojo */
+    color: white
+        /* Texto blanco */
+}
 
 
+
+
+.mr-2 {
+    margin-right: 11px;
+    margin-top: auto;
+    margin-left: 11px;
+
+}
+
+.locacion {
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #fffcfc
+}
